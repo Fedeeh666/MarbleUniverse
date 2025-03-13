@@ -1,0 +1,1 @@
+let s={addonId:"LostTelegramMiniAppsSDK"};class l extends globalThis.ISDKPluginBase{constructor(){super()}}globalThis.C3.Plugins.LostTelegramMiniAppsSDK=l;
