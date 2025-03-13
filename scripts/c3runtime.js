@@ -2971,11 +2971,11 @@ self.C3_ExpressionFuncs = [
 			const n1 = p._GetNode(1);
 			return () => f0(n1.ExpObject(), 12);
 		},
-		() => "LoadGame",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0();
 		},
+		() => "LoadGame",
 		() => "MenuCode",
 		() => "https://t.me/marble_games_news",
 		() => "NewWindow",

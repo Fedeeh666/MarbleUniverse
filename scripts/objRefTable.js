@@ -84,6 +84,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Exps.len,
 		C3.Plugins.Spritefont2.Exps.Text,
 		C3.Plugins.System.Exps.left,
+		C3.Plugins.LostTelegramMiniAppsSDK.Exps.UserUsername,
 		C3.Plugins.LocalStorage.Acts.CheckItemExists,
 		C3.Plugins.LocalStorage.Cnds.OnItemExists,
 		C3.Plugins.LocalStorage.Acts.GetItem,
