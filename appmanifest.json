@@ -1,10 +1,10 @@
 {
-	"name": "Marble Universe",
-	"short_name": "Marble Universe",
-	"description": "",
+	"name": "Telegram MiniApps SDK Example",
+	"short_name": "Telegram MiniApps SDK Example",
+	"description": "Example of using Telegram MiniApps SDK for Construct 3",
 	"start_url": "index.html",
 	"display": "fullscreen",
-	"orientation": "portrait",
+	"orientation": "landscape",
 	"background_color": "#ffffff",
 	"icons": [
 		{
@@ -34,7 +34,7 @@
 		},
 		{
 			"src": "icons/icon-512.png",
-			"sizes": "514x514",
+			"sizes": "512x512",
 			"type": "image/png"
 		}
 	],
