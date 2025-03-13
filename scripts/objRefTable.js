@@ -85,14 +85,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Spritefont2.Exps.Text,
 		C3.Plugins.System.Exps.left,
 		C3.Plugins.LocalStorage.Acts.CheckItemExists,
-		C3.Plugins.LostTelegramMiniAppsSDK.Acts.lockOrientation,
 		C3.Plugins.LocalStorage.Cnds.OnItemExists,
 		C3.Plugins.LocalStorage.Acts.GetItem,
 		C3.Plugins.LocalStorage.Cnds.OnItemGet,
 		C3.Plugins.LocalStorage.Exps.ItemValue,
 		C3.Plugins.Touch.Cnds.OnTapGestureObject,
 		C3.Plugins.Browser.Acts.GoToURLWindow,
-		C3.Plugins.LostTelegramMiniAppsSDK.Exps.UserId,
 		C3.Plugins.System.Acts.LoadState,
 		C3.Plugins.System.Acts.ResetGlobals
 	];
