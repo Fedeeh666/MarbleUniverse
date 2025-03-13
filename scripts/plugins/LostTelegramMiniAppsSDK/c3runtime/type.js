@@ -1,1 +1,0 @@
-let s={addonId:"LostTelegramMiniAppsSDK"};class T extends globalThis.ISDKObjectTypeBase{constructor(){super()}_onCreate(){}}globalThis.C3.Plugins.LostTelegramMiniAppsSDK.Type=T;
