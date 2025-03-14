@@ -2975,6 +2975,8 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0();
 		},
+		() => "Join me in the Marble Universe and earn your Reward",
+		() => "https://t.me/MarbleUniverseBot",
 		() => "LoadGame",
 		() => "MenuCode",
 		() => "https://t.me/marble_games_news",
