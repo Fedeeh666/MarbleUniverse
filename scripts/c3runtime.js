@@ -2844,6 +2844,10 @@ self.C3_ExpressionFuncs = [
 		() => "CHAR82",
 		() => "TUTORIAL2",
 		() => "LEVEL",
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => and("Score", v0.GetValue());
+		},
 		() => 30,
 		() => "BStop",
 		() => 50,
@@ -2976,7 +2980,7 @@ self.C3_ExpressionFuncs = [
 			return () => f0();
 		},
 		() => "Join me in the Marble Universe and earn your Reward",
-		() => "https://t.me/MarbleUniverseBot",
+		() => "https://t.me/MarbleUniverseBot/app?startapp",
 		() => "LoadGame",
 		() => "MenuCode",
 		() => "https://t.me/marble_games_news",

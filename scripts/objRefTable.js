@@ -65,6 +65,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Spritefont2.Cnds.CompareText,
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.LocalStorage.Acts.SetItem,
+		C3.Plugins.LostTelegramMiniAppsSDK.Acts.sendData,
 		C3.Plugins.Audio.Acts.SetVolume,
 		C3.Plugins.Sprite.Acts.SetOpacity,
 		C3.Behaviors.Flash.Acts.Flash,
