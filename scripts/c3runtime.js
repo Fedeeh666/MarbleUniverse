@@ -2708,6 +2708,11 @@ self.C3_ExpressionFuncs = [
 			const f1 = p._GetNode(1).GetBoundMethod();
 			return () => (n0.ExpObject() - (240 * f1()));
 		},
+		p => {
+			const v0 = p._GetNode(0).GetVar();
+			return () => (Math.round(v0.GetValue()) * 10);
+		},
+		() => 380,
 		() => 0.05,
 		() => "m2",
 		p => {
@@ -2845,8 +2850,9 @@ self.C3_ExpressionFuncs = [
 		() => "TUTORIAL2",
 		() => "LEVEL",
 		p => {
-			const v0 = p._GetNode(0).GetVar();
-			return () => and("Score", v0.GetValue());
+			const f0 = p._GetNode(0).GetBoundMethod();
+			const v1 = p._GetNode(1).GetVar();
+			return () => and((f0() + "Score"), v1.GetValue());
 		},
 		() => 30,
 		() => "BStop",
@@ -2944,7 +2950,6 @@ self.C3_ExpressionFuncs = [
 		() => 18,
 		() => 370,
 		() => 19,
-		() => 380,
 		() => "l1",
 		() => "l2",
 		() => "l3",
@@ -2980,7 +2985,11 @@ self.C3_ExpressionFuncs = [
 			return () => f0();
 		},
 		() => "Join me in the Marble Universe and earn your Reward",
-		() => "https://t.me/MarbleUniverseBot/app?startapp",
+		() => "https://t.me/MarbleUniverseBot?start",
+		p => {
+			const n0 = p._GetNode(0);
+			return () => n0.ExpObject();
+		},
 		() => "LoadGame",
 		() => "MenuCode",
 		() => "https://t.me/marble_games_news",
